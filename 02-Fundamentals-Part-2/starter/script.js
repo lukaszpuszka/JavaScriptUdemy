@@ -1,5 +1,9 @@
-// Test gita
+"use strict";
 
-//drugi commit
+// "Jonas has 3 friends, and his best friend is called michael"
 
-Lukasz = [junior, developer];
+const jonas = ["Michael", "Bob", "Andrew"];
+
+console.log(
+  `Jonas has ${jonas.length} friends, and his best friend is called ${jonas[0]}`
+);
